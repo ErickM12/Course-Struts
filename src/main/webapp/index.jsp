@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html ng-app="CourseStruts" lang="es">
 <head>
-    <title>JSP - Hello World</title>
+    <title>Gestión de usuarios</title>
     <script src="js/angular.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/modules/user/user.js"></script>
