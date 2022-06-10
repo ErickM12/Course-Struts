@@ -24,11 +24,21 @@ public class ActionRol {
     public String createRol() throws SQLException {
         rol = new Gson().fromJson(data, BeanRol.class);
         if (new DaoRol().createRol(rol)){
-            setMessage("Success");
+            setMessage("success");
         }else{
-            setMessage("Fail");
+            setMessage("fail");
         }
         return SUCCESS;
+    }
+
+    public String updateRol() throws SQLException {
+        rol = new Gson().fromJson(data, BeanRol.class);
+        if (new DaoRol().updateRol(rol)){
+            setMessage("success");
+        }else{
+            setMessage("fail");
+        }
+        return  SUCCESS;
     }
 
 

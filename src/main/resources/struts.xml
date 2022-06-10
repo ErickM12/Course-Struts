@@ -23,6 +23,14 @@
         <action name="createRol" method="createRol" class="com.utez.edu.mx.CourseStruts.rol.ActionRol">
             <result type="json"/>
         </action>
+
+        <action name="updateRol" method="updateRol" class="com.utez.edu.mx.CourseStruts.rol.ActionRol">
+            <result type="json"/>
+        </action>
+
+        <action name="user" method="user" class="com.utez.edu.mx.CourseStruts.user.ActionUser">
+            <result name="success">/views/user/User.jsp</result>
+        </action>
     </package>
 
 </struts>
